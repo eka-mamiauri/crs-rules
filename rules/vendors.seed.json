@@ -1,5 +1,4 @@
 {
-  "$schema": "https://example.com/vendors.schema.json",
   "generated_at": "2025-08-13",
   "source": "seeded_by_ai",
   "vendors": [
@@ -709,28 +708,6 @@
       ],
       "strong_signals": {},
       "notes": "Escape room booking; widget exists. Details TBD."
-    },
-    {
-      "name": "Stellar IMS",
-      "aka": [
-        "Stellar Tickets"
-      ],
-      "category": "ticketing_platform",
-      "homepage": "",
-      "host_tokens": [],
-      "strong_signals": {},
-      "notes": "Needs verification; placeholder entry.",
-      "needs_research": true
-    },
-    {
-      "name": "Bookspot",
-      "aka": [],
-      "category": "unknown",
-      "homepage": "",
-      "host_tokens": [],
-      "strong_signals": {},
-      "notes": "Ambiguous term; please clarify vendor.",
-      "needs_research": true
     },
     {
       "name": "BookNow Software",
