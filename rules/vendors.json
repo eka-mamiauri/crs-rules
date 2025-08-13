@@ -722,6 +722,16 @@
       "strong_signals": {},
       "notes": "Salesforce‑based booking software."
     }
+    {
+  "name": "Baluu",
+  "category": "reservation_software",
+  "homepage": "https://www.baluu.co.uk",
+  "host_tokens": ["baluu.co.uk", "live.baluu.co.uk", "baluu.uk", "app.baluu.io"],
+  "strong_signals": {
+    "iframes": ["https://.*\\.live\\.baluu\\.co\\.uk/"]
+  },
+  "notes": "Operators often link to a subdomain on live.baluu.co.uk."
+}
   ],
   "schema_notes": "Fields: name, aka, category, homepage, host_tokens, strong_signals{script_src, iframes, paths}, notes, needs_research."
 }
