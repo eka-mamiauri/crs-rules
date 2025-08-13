@@ -1,0 +1,750 @@
+{
+  "$schema": "https://example.com/vendors.schema.json",
+  "generated_at": "2025-08-13",
+  "source": "seeded_by_ai",
+  "vendors": [
+    {
+      "name": "Wix",
+      "aka": [],
+      "category": "website_builder",
+      "homepage": "https://www.wix.com",
+      "host_tokens": [
+        "wix.com",
+        "wixsite.com",
+        "wixstatic.com"
+      ],
+      "strong_signals": {},
+      "notes": "Website/CMS platform. Presence alone should not be considered reservations."
+    },
+    {
+      "name": "Shopify",
+      "aka": [],
+      "category": "ecommerce_host",
+      "homepage": "https://www.shopify.com",
+      "host_tokens": [
+        "shopify.com",
+        "myshopify.com",
+        "shopifycdn.com"
+      ],
+      "strong_signals": {},
+      "notes": "E‑commerce platform. Not a reservations system by itself."
+    },
+    {
+      "name": "Squarespace",
+      "aka": [],
+      "category": "website_builder",
+      "homepage": "https://www.squarespace.com",
+      "host_tokens": [
+        "squarespace.com",
+        "static1.squarespace.com"
+      ],
+      "strong_signals": {},
+      "notes": "Website builder. Use Acuity Scheduling for bookings."
+    },
+    {
+      "name": "WordPress",
+      "aka": [
+        "Wordpress"
+      ],
+      "category": "website_builder",
+      "homepage": "https://wordpress.org",
+      "host_tokens": [
+        "wordpress.com",
+        "wp.com",
+        "wpengine.com"
+      ],
+      "strong_signals": {},
+      "notes": "CMS; not a booking engine itself. Look for plugins like Bookly, WooCommerce, etc."
+    },
+    {
+      "name": "WooCommerce",
+      "aka": [
+        "Woo Commerce"
+      ],
+      "category": "ecommerce_host",
+      "homepage": "https://woocommerce.com",
+      "host_tokens": [
+        "woocommerce.com"
+      ],
+      "strong_signals": {},
+      "notes": "E‑commerce plugin for WordPress; not inherently reservations."
+    },
+    {
+      "name": "Ecwid",
+      "aka": [],
+      "category": "ecommerce_host",
+      "homepage": "https://www.ecwid.com",
+      "host_tokens": [
+        "ecwid.com"
+      ],
+      "strong_signals": {},
+      "notes": "E‑commerce cart; not a reservation engine."
+    },
+    {
+      "name": "Square Commerce",
+      "aka": [
+        "Squareup"
+      ],
+      "category": "commerce_platform",
+      "homepage": "https://squareup.com",
+      "host_tokens": [
+        "squareup.com",
+        "square.site",
+        "sqcdn.com"
+      ],
+      "strong_signals": {},
+      "notes": "General Square commerce presence is neutral. See Square Appointments for scheduling signals."
+    },
+    {
+      "name": "Square Appointments",
+      "aka": [
+        "Square Scheduling"
+      ],
+      "category": "scheduling_software",
+      "homepage": "https://squareup.com/appointments",
+      "host_tokens": [
+        "square.site"
+      ],
+      "strong_signals": {
+        "script_src": [
+          "https://square\\.site/appointments/buyer/widget/"
+        ]
+      },
+      "notes": "Square Appointments embed uses a script served from square.site."
+    },
+    {
+      "name": "Acuity Scheduling",
+      "aka": [
+        "Squarespace Scheduling"
+      ],
+      "category": "scheduling_software",
+      "homepage": "https://acuityscheduling.com",
+      "host_tokens": [
+        "acuityscheduling.com"
+      ],
+      "strong_signals": {},
+      "notes": "Embeds via code copied from Acuity; exact domains vary."
+    },
+    {
+      "name": "Calendly",
+      "aka": [],
+      "category": "scheduling_software",
+      "homepage": "https://calendly.com",
+      "host_tokens": [
+        "calendly.com",
+        "assets.calendly.com"
+      ],
+      "strong_signals": {
+        "script_src": [
+          "https://assets\\.calendly\\.com/"
+        ]
+      },
+      "notes": "Calendar scheduling, not a full reservation engine for tours/attractions."
+    },
+    {
+      "name": "Mindbody",
+      "aka": [
+        "MINDBODY",
+        "Mondbody"
+      ],
+      "category": "scheduling_software",
+      "homepage": "https://www.mindbodyonline.com",
+      "host_tokens": [
+        "mindbodyonline.com"
+      ],
+      "strong_signals": {},
+      "notes": "Wellness scheduling; may offer widgets and deep links."
+    },
+    {
+      "name": "Onlineafspraken",
+      "aka": [
+        "OnlineAfspraken.nl"
+      ],
+      "category": "scheduling_software",
+      "homepage": "https://onlineafspraken.nl",
+      "host_tokens": [
+        "onlineafspraken.nl"
+      ],
+      "strong_signals": {},
+      "notes": "Dutch scheduling platform with embeddable widgets."
+    },
+    {
+      "name": "GetYourGuide",
+      "aka": [],
+      "category": "ota",
+      "homepage": "https://www.getyourguide.com",
+      "host_tokens": [
+        "getyourguide.com"
+      ],
+      "strong_signals": {
+        "script_src": [
+          "https://widget\\.getyourguide\\.com/"
+        ]
+      },
+      "notes": "Marketplace/affiliate widgets; not an operator’s own reservation engine."
+    },
+    {
+      "name": "Viator",
+      "aka": [],
+      "category": "ota",
+      "homepage": "https://www.viator.com",
+      "host_tokens": [
+        "viator.com"
+      ],
+      "strong_signals": {
+        "script_src": [
+          "https?://.*viator\\.com/.*widget"
+        ]
+      },
+      "notes": "OTA; operator sites may link out to Viator product pages."
+    },
+    {
+      "name": "Airbnb",
+      "aka": [],
+      "category": "ota",
+      "homepage": "https://www.airbnb.com",
+      "host_tokens": [
+        "airbnb.com"
+      ],
+      "strong_signals": {},
+      "notes": "Marketplace; not an operator reservation engine embed."
+    },
+    {
+      "name": "ClassBento",
+      "aka": [],
+      "category": "ota",
+      "homepage": "https://classbento.com",
+      "host_tokens": [
+        "classbento.com"
+      ],
+      "strong_signals": {},
+      "notes": "Marketplace for classes; typically links out."
+    },
+    {
+      "name": "Docklyne",
+      "aka": [],
+      "category": "marketplace_booking",
+      "homepage": "https://docklyne.com",
+      "host_tokens": [
+        "docklyne.com"
+      ],
+      "strong_signals": {},
+      "notes": "Boat rental marketplace & software; can provide booking flows."
+    },
+    {
+      "name": "FareHarbor",
+      "aka": [],
+      "category": "reservation_software",
+      "homepage": "https://www.fareharbor.com",
+      "host_tokens": [
+        "fareharbor.com",
+        "fhkit.com"
+      ],
+      "strong_signals": {
+        "script_src": [
+          "https://fareharbor\\.com/embeds/",
+          "https://fhkit\\.com/"
+        ],
+        "iframes": [
+          "https://fareharbor\\.com/.*(calendar|book)"
+        ]
+      },
+      "notes": "Operator booking engine; overlay, iframe, and deep link modes."
+    },
+    {
+      "name": "Bokun",
+      "aka": [
+        "Bókun"
+      ],
+      "category": "reservation_software",
+      "homepage": "https://www.bokun.io",
+      "host_tokens": [
+        "bokun.io",
+        "widgets.bokun.io"
+      ],
+      "strong_signals": {
+        "script_src": [
+          "https://widgets\\.bokun\\.io/"
+        ]
+      },
+      "notes": "Embeddable widgets + standalone product/checkout pages."
+    },
+    {
+      "name": "Peek Pro",
+      "aka": [
+        "Peek"
+      ],
+      "category": "reservation_software",
+      "homepage": "https://www.peekpro.com",
+      "host_tokens": [
+        "peek.com",
+        "peekpro.com",
+        "pirassets.s3.amazonaws.com"
+      ],
+      "strong_signals": {
+        "script_src": [
+          "pirassets\\.s3\\.amazonaws\\.com/.*widget"
+        ]
+      },
+      "notes": "Legacy widgets hosted from S3; modern flows may differ."
+    },
+    {
+      "name": "Rezdy",
+      "aka": [],
+      "category": "reservation_software",
+      "homepage": "https://www.rezdy.com",
+      "host_tokens": [
+        "rezdy.com"
+      ],
+      "strong_signals": {},
+      "notes": "Embeds + direct booking links depending on setup."
+    },
+    {
+      "name": "Xola",
+      "aka": [],
+      "category": "reservation_software",
+      "homepage": "https://www.xola.com",
+      "host_tokens": [
+        "xola.com"
+      ],
+      "strong_signals": {
+        "script_src": [
+          "https://xola\\.com/checkout\\.js"
+        ]
+      },
+      "notes": "Overlay/iframe checkout via xola.com/checkout.js"
+    },
+    {
+      "name": "Regiondo",
+      "aka": [],
+      "category": "reservation_software",
+      "homepage": "https://www.regiondo.com",
+      "host_tokens": [
+        "regiondo.com",
+        "shop.regiondo.com",
+        "checkout.regiondo.com"
+      ],
+      "strong_signals": {},
+      "notes": "Shop + booking widget; checkout often via Regiondo domains."
+    },
+    {
+      "name": "bookingkit",
+      "aka": [],
+      "category": "reservation_software",
+      "homepage": "https://bookingkit.com",
+      "host_tokens": [
+        "bookingkit.com",
+        "widget.bookingkit.com",
+        "widget.bookingkit.net"
+      ],
+      "strong_signals": {
+        "script_src": [
+          "https://widget\\.bookingkit\\.(com|net)/"
+        ]
+      },
+      "notes": "Embeddable widget with product, calendar modes."
+    },
+    {
+      "name": "Checkfront",
+      "aka": [],
+      "category": "reservation_software",
+      "homepage": "https://www.checkfront.com",
+      "host_tokens": [
+        "checkfront.com"
+      ],
+      "strong_signals": {
+        "paths": [
+          "https://.*\\.checkfront\\.com/reserve"
+        ]
+      },
+      "notes": "Booking pages commonly live on subdomain.checkfront.com/reserve"
+    },
+    {
+      "name": "Resova",
+      "aka": [],
+      "category": "reservation_software",
+      "homepage": "https://get.resova.com",
+      "host_tokens": [
+        "resova.com",
+        "get.resova.com",
+        "info.resova.com"
+      ],
+      "strong_signals": {},
+      "notes": "Embeds or link-out booking site; code copied from Resova admin."
+    },
+    {
+      "name": "Bookeo",
+      "aka": [],
+      "category": "reservation_software",
+      "homepage": "https://www.bookeo.com",
+      "host_tokens": [
+        "bookeo.com"
+      ],
+      "strong_signals": {
+        "iframes": [
+          "https://www\\.bookeo\\.com/.*widget"
+        ]
+      },
+      "notes": "Embeddable widget; content originates from bookeo.com."
+    },
+    {
+      "name": "RocketRez",
+      "aka": [],
+      "category": "ticketing_platform",
+      "homepage": "https://www.rocketrez.com",
+      "host_tokens": [
+        "rocketrez.com",
+        "tickets.rocketrez.com"
+      ],
+      "strong_signals": {},
+      "notes": "Attractions/ticketing; embeds or direct checkout depending on setup."
+    },
+    {
+      "name": "ROLLER",
+      "aka": [
+        "Roller"
+      ],
+      "category": "ticketing_platform",
+      "homepage": "https://www.roller.software",
+      "host_tokens": [
+        "roller.software",
+        "roller.app",
+        "manage.roller.app"
+      ],
+      "strong_signals": {
+        "paths": [
+          "https://.*\\.roller\\.app/checkout"
+        ]
+      },
+      "notes": "Progressive checkout; overlay or direct URL modes."
+    },
+    {
+      "name": "Ventrata",
+      "aka": [],
+      "category": "ticketing_platform",
+      "homepage": "https://ventrata.com",
+      "host_tokens": [
+        "ventrata.com",
+        "checkout.ventrata.com"
+      ],
+      "strong_signals": {},
+      "notes": "Hosted checkout and embeddable options."
+    },
+    {
+      "name": "The Flybook",
+      "aka": [
+        "Flybook"
+      ],
+      "category": "reservation_software",
+      "homepage": "https://www.theflybook.com",
+      "host_tokens": [
+        "theflybook.com",
+        "go.theflybook.com"
+      ],
+      "strong_signals": {},
+      "notes": "Embeddable widgets + hosted booking pages."
+    },
+    {
+      "name": "Beyonk",
+      "aka": [],
+      "category": "reservation_software",
+      "homepage": "https://www.beyonk.com",
+      "host_tokens": [
+        "beyonk.com",
+        "widgets.beyonk.com"
+      ],
+      "strong_signals": {
+        "script_src": [
+          "https://widgets\\.beyonk\\.com/"
+        ]
+      },
+      "notes": "Embed widgets for tours/activities."
+    },
+    {
+      "name": "WeTravel",
+      "aka": [],
+      "category": "reservation_software",
+      "homepage": "https://www.wetravel.com",
+      "host_tokens": [
+        "wetravel.com",
+        "api.wetravel.com"
+      ],
+      "strong_signals": {},
+      "notes": "Embeddable checkout overlay or link out to WeTravel trip page."
+    },
+    {
+      "name": "Tock",
+      "aka": [],
+      "category": "restaurant_booking",
+      "homepage": "https://www.exploretock.com",
+      "host_tokens": [
+        "exploretock.com"
+      ],
+      "strong_signals": {},
+      "notes": "Restaurant/event reservations; typically links to exploretock.com."
+    },
+    {
+      "name": "Recras",
+      "aka": [],
+      "category": "reservation_software",
+      "homepage": "https://www.recras.nl",
+      "host_tokens": [
+        "recras.nl",
+        "demo.recras.nl"
+      ],
+      "strong_signals": {},
+      "notes": "Dutch booking system; API + JS library available."
+    },
+    {
+      "name": "LeisureKing",
+      "aka": [],
+      "category": "reservation_software",
+      "homepage": "https://en.leisureking.nl",
+      "host_tokens": [
+        "leisureking.eu",
+        "leisureking.nl",
+        "en.leisureking.nl"
+      ],
+      "strong_signals": {},
+      "notes": "Embeddable ‘booking module’ widgets."
+    },
+    {
+      "name": "Campspot",
+      "aka": [],
+      "category": "reservation_software",
+      "homepage": "https://software.campspot.com",
+      "host_tokens": [
+        "campspot.com",
+        "software.campspot.com"
+      ],
+      "strong_signals": {},
+      "notes": "Campground PMS with booking API and marketplace pages."
+    },
+    {
+      "name": "Booqable",
+      "aka": [],
+      "category": "rental_management",
+      "homepage": "https://www.booqable.com",
+      "host_tokens": [
+        "booqable.com"
+      ],
+      "strong_signals": {
+        "script_src": [
+          "https://cdn\\.booqable\\.com/"
+        ]
+      },
+      "notes": "Rental engine; embed and hosted checkout options."
+    },
+    {
+      "name": "Bookly",
+      "aka": [],
+      "category": "wordpress_plugin",
+      "homepage": "https://www.bookly.info",
+      "host_tokens": [
+        "bookly.info",
+        "booking-wp-plugin.com"
+      ],
+      "strong_signals": {},
+      "notes": "WordPress booking plugin; detect via script/shortcode patterns."
+    },
+    {
+      "name": "AnyRoad",
+      "aka": [
+        "AnyGuide"
+      ],
+      "category": "experience_platform",
+      "homepage": "https://www.anyroad.com",
+      "host_tokens": [
+        "anyroad.com",
+        "anyguide.com"
+      ],
+      "strong_signals": {},
+      "notes": "Experience/brand platform; sometimes embeds widgets or links out."
+    },
+    {
+      "name": "Anchor",
+      "aka": [
+        "Anchor Operating System"
+      ],
+      "category": "ticketing_platform",
+      "homepage": "https://www.getanchor.io",
+      "host_tokens": [
+        "getanchor.io"
+      ],
+      "strong_signals": {},
+      "notes": "Attractions/ticketing OS; hosted flows and APIs."
+    },
+    {
+      "name": "Eventbrite",
+      "aka": [],
+      "category": "ticketing_platform",
+      "homepage": "https://www.eventbrite.com",
+      "host_tokens": [
+        "eventbrite.com"
+      ],
+      "strong_signals": {
+        "script_src": [
+          "https://www\\.eventbrite\\.com/.*embedded"
+        ]
+      },
+      "notes": "Embedded Checkout widget or direct event links."
+    },
+    {
+      "name": "Ticketmaster",
+      "aka": [],
+      "category": "ticketing_platform",
+      "homepage": "https://www.ticketmaster.com",
+      "host_tokens": [
+        "ticketmaster.com"
+      ],
+      "strong_signals": {},
+      "notes": "Widgets and APIs exist; often links out to ticketmaster.com."
+    },
+    {
+      "name": "TicketTailor",
+      "aka": [],
+      "category": "ticketing_platform",
+      "homepage": "https://www.tickettailor.com",
+      "host_tokens": [
+        "tickettailor.com"
+      ],
+      "strong_signals": {},
+      "notes": "Embeddable box office and buttons."
+    },
+    {
+      "name": "TicketSpice",
+      "aka": [],
+      "category": "ticketing_platform",
+      "homepage": "https://www.ticketspice.com",
+      "host_tokens": [
+        "ticketspice.com"
+      ],
+      "strong_signals": {},
+      "notes": "Embeddable ticketing page via iframe."
+    },
+    {
+      "name": "SimpleTix",
+      "aka": [],
+      "category": "ticketing_platform",
+      "homepage": "https://www.simpletix.com",
+      "host_tokens": [
+        "simpletix.com"
+      ],
+      "strong_signals": {},
+      "notes": "Embeddable widgets (pinboard, calendar, buttons)."
+    },
+    {
+      "name": "Humanitix",
+      "aka": [],
+      "category": "ticketing_platform",
+      "homepage": "https://www.humanitix.com",
+      "host_tokens": [
+        "humanitix.com"
+      ],
+      "strong_signals": {},
+      "notes": "Embedded checkout buttons and overlays."
+    },
+    {
+      "name": "Etix",
+      "aka": [],
+      "category": "ticketing_platform",
+      "homepage": "https://www.etix.com",
+      "host_tokens": [
+        "etix.com"
+      ],
+      "strong_signals": {},
+      "notes": "Ticketing platform; implementations vary (often link out)."
+    },
+    {
+      "name": "Spektrix",
+      "aka": [],
+      "category": "ticketing_platform",
+      "homepage": "https://www.spektrix.com",
+      "host_tokens": [
+        "spektrix.com",
+        "system.spektrix.com"
+      ],
+      "strong_signals": {
+        "paths": [
+          "https://system\\.spektrix\\.com/"
+        ]
+      },
+      "notes": "Iframe-based booking flow & API integrations."
+    },
+    {
+      "name": "Ovationtix",
+      "aka": [
+        "AudienceView Professional"
+      ],
+      "category": "ticketing_platform",
+      "homepage": "https://ovationtix.com",
+      "host_tokens": [
+        "ovationtix.com",
+        "api.ovationtix.com",
+        "admin.ovationtix.com"
+      ],
+      "strong_signals": {},
+      "notes": "Now AudienceView Professional; hosted purchase flows."
+    },
+    {
+      "name": "Tock (Restaurants)",
+      "aka": [
+        "Tock"
+      ],
+      "category": "restaurant_booking",
+      "homepage": "https://www.exploretock.com",
+      "host_tokens": [
+        "exploretock.com"
+      ],
+      "strong_signals": {},
+      "notes": "Usually link-out to exploretock.com pages."
+    },
+    {
+      "name": "4escape",
+      "aka": [],
+      "category": "reservation_software",
+      "homepage": "https://www.4escape.io",
+      "host_tokens": [
+        "4escape.io"
+      ],
+      "strong_signals": {},
+      "notes": "Escape room booking; widget exists. Details TBD."
+    },
+    {
+      "name": "Stellar IMS",
+      "aka": [
+        "Stellar Tickets"
+      ],
+      "category": "ticketing_platform",
+      "homepage": "",
+      "host_tokens": [],
+      "strong_signals": {},
+      "notes": "Needs verification; placeholder entry.",
+      "needs_research": true
+    },
+    {
+      "name": "Bookspot",
+      "aka": [],
+      "category": "unknown",
+      "homepage": "",
+      "host_tokens": [],
+      "strong_signals": {},
+      "notes": "Ambiguous term; please clarify vendor.",
+      "needs_research": true
+    },
+    {
+      "name": "BookNow Software",
+      "aka": [
+        "BookNow"
+      ],
+      "category": "reservation_software",
+      "homepage": "https://www.booknowsoftware.com",
+      "host_tokens": [
+        "booknowsoftware.com"
+      ],
+      "strong_signals": {},
+      "notes": "Salesforce‑based booking software."
+    }
+  ],
+  "schema_notes": "Fields: name, aka, category, homepage, host_tokens, strong_signals{script_src, iframes, paths}, notes, needs_research."
+}
